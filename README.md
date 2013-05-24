@@ -1,4 +1,4 @@
-# litestrap
+# _litestrap
 ### Bare-Bones CSS styling and utilities to get a site off the ground.
 
 I got tired of re-writing the same utilities in every css file I touch, so I put this together.  It's a collection of easy-to-remember, easy-to-use classes that can help you get started on your next project.
