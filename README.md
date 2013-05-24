@@ -5,7 +5,7 @@ I got tired of re-writing the same utilities in every css file I touch, so I put
 
 ## What this isn't
 
-This isn't meant to be a 'do everything for me' CSS library.  This is only for basic utilities that won't get in your way when you're putting together something new.  I may extend this a bit in the future, but the idea for now is to keep it as simple as possible.  If you want something that will do more, please by all means use [inut.css](http://inuitcss.com/) or [Bootstrap](http://twitter.github.com/bootstrap/) instead - a lot of work was put into those, and far more by comparison than my humble contribution can boast.  I admire these libraries but choose not to use them sometimes - which is why I made litestrap. :)
+This isn't meant to be a 'do everything for me' CSS library.  This is only for basic utilities that won't get in your way when you're putting together something new.  I may extend this a bit in the future, but the idea for now is to keep it as simple as possible.  If you want something that will do more, please by all means use [inuit.css](http://inuitcss.com/) or [Bootstrap](http://twitter.github.com/bootstrap/) instead - a lot of work was put into those, and far more by comparison than my humble contribution can boast.  I admire these libraries but choose not to use them sometimes - which is why I made litestrap. :)
 
 litestrap doesn't even include a real grid - just a collection of sizes. It's easy to put one together with litestrap and SASS/LESS/stylus though.  If you're using a preprocessor, just copy the class list and nest it in your grid wrapper class (OH THE HORROR).  
 
