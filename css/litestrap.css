@@ -106,6 +106,6 @@ img { max-width: 100%; }
     .whole, .half, .third, .twothird, .twothirds, .quarter, .threequarter, .threequarters, .sixth, .eighth, .ninety, .eighty, .seventy, .sixty, .fifty, .forty, .thirty, .twenty, .ten  { width: 100%; float: none; clear: both; margin: 0 auto;}    
         /* just in-case silly people apply the grids to images and it breaks things... */
 		img.half, img.third, img.twothird, img.quarter, img.threequarter, img.sixth { width: auto; }
-        .half.palm-half { width: 50%; float: left; clear: none; }
+        .palm-half, .half.palm-half { width: 50%; float: left; clear: none; }
         .half .half { width: 100%; }
 }
