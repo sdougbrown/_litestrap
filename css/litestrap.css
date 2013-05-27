@@ -89,6 +89,14 @@ img { max-width: 100%; }
     clear: both;
 }
 
+/* responsive stuff.  snip here if you don't want to go down this rabbit hole */
+@media only screen and (max-width: 800px) {    
+	/* 'portrait mode' trigger classes */
+	.port-hide { display: none; }
+    .port-clear { clear: both; }
+    .port-killfloat, .port-pull-none { float: none; }   
+	.port-half { width: 50%; float: left; clear: none; }
+}
 @media only screen and (max-width: 600px) {    
     /* automatically mobile-ready!  leave this stuff out if you want */
 	html { min-width: auto; }
@@ -100,12 +108,11 @@ img { max-width: 100%; }
 	/* mobile-only trigger classes */
 	.palm-hide { display: none; }
     .palm-clear { clear: both; }
-    .palm-killfloat, .palm-pull-none { float: none; }    
+    .palm-killfloat, .palm-pull-none { float: none; }
     
 	/* death to floating columns on mobile! */
     .whole, .half, .third, .twothird, .twothirds, .quarter, .threequarter, .threequarters, .sixth, .eighth, .ninety, .eighty, .seventy, .sixty, .fifty, .forty, .thirty, .twenty, .ten  { width: 100%; float: none; clear: both; margin: 0 auto;}    
         /* just in-case silly people apply the grids to images and it breaks things... */
 		img.half, img.third, img.twothird, img.quarter, img.threequarter, img.sixth { width: auto; }
         .palm-half, .half.palm-half { width: 50%; float: left; clear: none; }
-        .half .half { width: 100%; }
 }

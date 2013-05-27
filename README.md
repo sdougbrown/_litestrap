@@ -3,6 +3,10 @@
 
 I got tired of re-writing the same utilities in every css file I touch, so I put this together.  It's a collection of easy-to-remember, easy-to-use classes that can help you get started on your next project.
 
+## What it does
+
+litestrap provides common grid widths with simple names.  It also auto-collapses all grid widths for mobile.  This is not always desireable for every project, but for many simple projects this is the desireable behaviour.  If you don't want that, just snip out the media queries for your own use. :)
+
 ## What this isn't
 
 This isn't meant to be a 'do everything for me' CSS library.  This is only for basic utilities that won't get in your way when you're putting together something new.  I may extend this a bit in the future, but the idea for now is to keep it as simple as possible.  If you want something that will do more, please by all means use [inuit.css](http://inuitcss.com/) or [Bootstrap](http://twitter.github.com/bootstrap/) instead - a lot of work was put into those, and far more by comparison than my humble contribution can boast.  I admire these libraries but choose not to use them sometimes - which is why I made litestrap. :)
