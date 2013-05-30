@@ -18,8 +18,8 @@ img { max-width: 100%; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 
-.pull-left { float: left; }
-.pull-right { float: right; }
+.pull-left, .fl, .float--left { float: left; }
+.pull-right, .fr, .float--right { float: right; }
 .pull-none { float: none; }
 
 /* .r- rules */
@@ -94,7 +94,7 @@ img { max-width: 100%; }
 	/* 'portrait mode' trigger classes */
 	.port-hide { display: none; }
     .port-clear { clear: both; }
-    .port-killfloat, .port-pull-none { float: none; }   
+    .port-killfloat, .port-pull-none, .port-float--none { float: none; }   
 	.port-half { width: 50%; float: left; clear: none; }
 }
 @media only screen and (max-width: 600px) {    
@@ -108,7 +108,7 @@ img { max-width: 100%; }
 	/* mobile-only trigger classes */
 	.palm-hide { display: none; }
     .palm-clear { clear: both; }
-    .palm-killfloat, .palm-pull-none { float: none; }
+    .palm-killfloat, .palm-pull-none, .palm-float--none { float: none; }
     
 	/* death to floating columns on mobile! */
     .whole, .half, .third, .twothird, .twothirds, .quarter, .threequarter, .threequarters, .sixth, .eighth, .ninety, .eighty, .seventy, .sixty, .fifty, .forty, .thirty, .twenty, .ten  { width: 100%; float: none; clear: both; margin: 0 auto;}    
