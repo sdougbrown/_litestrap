@@ -21,6 +21,13 @@ img { max-width: 100%; }
 .r-block { display: block; }
 .r-inline { display: inline; }
 .r-inline-block, .r-iblock { display: inline-block; }
+
+/* vertical alignment for inline-block and table elements */
+.r-valign--top { vertical-align: top; }
+.r-valign--mid { vertical-align: middle; }
+.r-valign--bottom { vertical-align: bottom; }
+
+/* border-box sizing */
 .r-border-box { 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -108,7 +115,7 @@ img { max-width: 100%; }
 .allcaps { text-transform: uppercase; }
 
 /* basic clearfix - comes in many flavours! */
-.clearfix:after, .fix:after, .group:after, .row:after, .gw:after {
+.clearfix:after, .fix:after, .group:after, .row:after, .gw:after, .media:after {
     content: "";
     display: table;
     clear: both;
