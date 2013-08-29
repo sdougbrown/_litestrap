@@ -113,3 +113,34 @@
     .btn--dark:active {
         background-color: #292929;
     }
+    
+/* 
+    button groups 
+    either .btn--grp on each item, 
+    or .btn-grp on the parent element, and it looks for .btn children
+*/
+.btn--grp, .btn-grp > .btn {
+    margin-left: -0.35em;
+}
+    .btn--grp, .btn-grp > .btn, .btn--grp.brn--grp--fakefirst {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .btn--grp:first-child, .btn-grp > .btn:first-child, .btn--grp--first {
+        margin-left: 0;
+         -moz-border-radius-bottomleft: 0.25em;
+        -webkit-border-bottom-left-radius: 0.25em;
+        border-bottom-left-radius: 0.25em;
+        -moz-border-radius-topleft: 0.25em;
+        -webkit-border-top-left-radius: 0.25em;
+        border-top-left-radius: 0.25em;
+    }
+    .btn--grp:last-child, .btn-grp > .btn:last-child, .btn--grp--last {
+        -moz-border-radius-topright: 0.25em;
+        -webkit-border-top-right-radius: 0.25em;
+        border-top-right-radius: 0.25em;
+        -moz-border-radius-bottomright: 0.25em;
+        -webkit-border-bottom-right-radius: 0.25em;
+        border-bottom-right-radius: 0.25em;
+    }
