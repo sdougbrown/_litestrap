@@ -1,0 +1,37 @@
+/* 
+ *  _litestrap spacing
+ *
+ * Spacing Helpers
+ *
+ */
+
+/* 
+	Margin Helpers
+*/
+.mg-top { margin-top: 0.5em; }
+.mg-top--big { margin-top: 1.5em; }
+.mg-top--double { margin-top: 1em; }
+.mg-top--small, .mg-top--half { margin-top: 0.25em; }
+.mg-top--none { margin-top: 0; }
+
+.mg-bottom { margin-bottom: 0.5em; }
+.mg-bottom--big { margin-top: 1.5em; }
+.mg-bottom--double { margin-top: 1em; }
+.mg-bottom--small, .mg-bottom--half { margin-bottom: 0.25em; }
+.mg-bottom--none { margin-bottom: 0; }	
+
+/* 
+	Padding Helpers
+*/
+
+.pd-top { padding-top: 0.5em; }
+.pd-top--big { padding-top: 1.5em; }
+.pd-top--double { padding-top: 1em; }
+.pd-top--small, .pd-top--half { padding-top: 0.25em; }
+.pd-top--none { padding-top: 0; }
+
+.pd-bottom { padding-bottom: 0.5em; }
+.pd-bottom--big { padding-top: 1.5em; }
+.pd-bottom--double { padding-top: 1em; }
+.pd-bottom--small, .pd-top--half { padding-bottom: 0.25em; }
+.pd-bottom--none { padding-bottom: 0; }	

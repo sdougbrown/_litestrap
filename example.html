@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<title>_litestrap example page</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/litestrap.css" />
+        <link rel="stylesheet" href="css/_ls/text.css" />
+        <link rel="stylesheet" href="css/_ls/buttons.css" />
+        <link rel="stylesheet" href="css/_ls/fancy.css" />
+        <link rel="stylesheet" href="css/_ls/spacing.css" />
+		<style>			
+            .g { margin-bottom: 1em; }
+            .gw--h .g { margin-bottom: 0.5em; }
+            .ex { 
+				display: block;
+				padding: 20px;
+				background: #eee; 
+                -moz-border-radius: 0.25em;
+                -webkit-border-radius: 0.25em;
+                border-radius: 0.25em;
+			}
+                .ex--alt { background: #f7f7f7; }
+			.row {
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body>
+        <div class="content-wrap">
+            <h1>_litestrap</h1>
+            
+            <h2>Responsive grids.</h2>
+            
+            <p>You can do a bunch of things a bunch of ways, but in most cases this is how I like to have my grids.  Here are some examples of what you can do.</p>
+            
+            <h4>Floating grid elements that don't want your damn grid wrappers</h4>
+            <div class="row">
+                <div class="quarter"><span class="ex">quarter</span></div>
+                <div class="half"><span class="ex  ex--alt">half</span></div>  
+                <div class="quarter"><span class="ex">quarter</span></div>                
+            </div>
+            <h4>Grid-wrapped inline-block elements with nice spacing</h4>
+            <div class="row  gw">
+                <div class="g  half"><span class="ex">half</span></div>
+                <div class="g  half"><span class="ex">half</span></div>
+                <div class="g  third  pull-right"><span class="ex">third pull-right</span></div>
+                <div class="g  twothird"><span class="ex">twothird</span></div>
+                <div class="g  sixty"><span class="ex">sixty</span></div>
+                <div class="g  forty"><span class="ex">forty</span></div>
+            </div>
+            <h4>You can reduce the spacing on some grids</h4>
+            <div class="row  gw  gw--h">
+                <div class="g  half"><span class="ex">half</span></div>
+                <div class="g  half"><span class="ex">half</span></div>
+                <div class="g  twothird"><span class="ex">twothird</span></div>
+                <div class="g  third"><span class="ex">third</span></div>
+                <div class="g  forty"><span class="ex">forty</span></div>
+                <div class="g  sixty pull-left"><span class="ex">sixty pull-left</span></div>
+            </div>
+            <h4>And you can make them resize at different screen levels</h4>
+            <div class="row  gw">
+                <div class="g  quarter--xs  whole--s  half--m  whole--l  half--xl"><span class="ex">wheee</span></div>
+                <div class="g  quarter--xs  whole--s  half--m  whole--l  half--xl"><span class="ex">wheee</span></div>
+                <div class="g  quarter--xs  whole--s  half--m  whole--l  half--xl"><span class="ex">wheee</span></div>
+                <div class="g  quarter--xs  whole--s  half--m  whole--l  half--xl"><span class="ex">wheee</span></div>
+                <div class="g whole">
+                    <code>g  quarter--xs  whole--s  half--m  whole--l  half--xl</code>
+                </div>
+            </div>
+            <h2>Buttons! (Optional)</h2>
+            <div class="row">
+                <div class="row">
+                    <a class="butt  mg-bottom">Hi I'm a button</a>
+                    <a class="butt  btn--dark  mg-bottom">Hi I'm a button</a>
+                    <a class="butt  btn--pill  mg-bottom">Hi I'm a button</a>
+                    <a class="butt  btn--dark  btn--pill  mg-bottom">Hi I'm a button</a>
+                </div>
+                <div class="row t-half--s">
+                    <a class="butt  btn--xl  mg-bottom--half">Hi I'm a button</a>
+                    <a class="butt  btn--l  btn--dark  mg-bottom">Hi I'm a button</a>
+                    <a class="butt  btn--m  mg-bottom">Hi I'm a button</a>
+                    <a class="butt  btn--s  btn--dark  mg-bottom">Hi I'm a button</a>                    
+                </div>
+                <div class="gw row">
+                    <div class="g  whole  half--l"><a class="butt  btn--fill">Hi I'm a button</a></div>
+                    <div class="g  whole  half--l"><a class="butt  btn--fill  btn--dark">Hi I'm a button</a></div>
+                </div>
+            </div>
+            
+            <h6>_litestrap is brought to you by <a href="twitter.com/sdougbrown">doug brown</a></h6>
+            <p>This "software" is provided with no warranty or guarantee. (But I do hope you enjoy it!)</p>
+		</div>
+	</body>
+</html>
