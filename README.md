@@ -1,3 +1,5 @@
+#### This Repo is out of date.  See the current litstrap here: https://github.com/duckduckgo/litestrap
+
 # _litestrap
 ### Helper classes that are actually helpful.  An extra-responsive framework that makes sense (I think).
 
